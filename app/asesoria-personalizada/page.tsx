@@ -8,7 +8,7 @@ import AnimationObserver from '@/components/AnimationObserver'
 
 /* ── SEO ── */
 export const metadata: Metadata = {
-  title: 'Asesoría Personalizada en Marketing Digital | Romulo Agency',
+  title: 'Asesoría Personalizada en Marketing Digital | El Otro Romulo',
   description:
     'Asesoría 1:1 en marketing digital con Rómulo Rodriguez y Jhonathan Hoyos. Aprende Meta Ads, funnels de venta, estrategia digital y más. Sesiones personalizadas según tus objetivos.',
   keywords: [
@@ -22,16 +22,16 @@ export const metadata: Metadata = {
     'estrategia digital personalizada',
   ],
   openGraph: {
-    title: 'Asesoría Personalizada en Marketing Digital — Romulo Agency',
+    title: 'Asesoría Personalizada en Marketing Digital — El Otro Romulo',
     description:
       'Sesiones 1:1 con expertos en marketing digital. Aprende exactamente lo que tu negocio necesita, al ritmo que necesitas.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Asesoría Personalizada en Marketing Digital — Romulo Agency',
+    title: 'Asesoría Personalizada en Marketing Digital — El Otro Romulo',
     description: 'Asesoría 1:1 con Rómulo Rodriguez y Jhonathan Hoyos. Agenda tu sesión hoy.',
   },
   alternates: { canonical: '/asesoria-personalizada' },
@@ -54,7 +54,7 @@ const jsonLd = {
       name: 'Asesoría Personalizada en Marketing Digital',
       description:
         'Sesiones de mentoría 1:1 en marketing digital con Rómulo Rodriguez y Jhonathan Hoyos. Enfocadas en Meta Ads, estrategia de ventas, funnels, contenido y crecimiento digital.',
-      provider: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      provider: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
       areaServed: { '@type': 'Place', name: 'Latinoamérica' },
       serviceType: 'Consultoría · Mentoría Digital',
     },
@@ -83,13 +83,13 @@ const jsonLd = {
       '@type': 'Person',
       name: 'Rómulo Rodriguez',
       jobTitle: 'Fundador & Mentor Principal',
-      worksFor: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      worksFor: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
     },
     {
       '@type': 'Person',
       name: 'Jhonathan Hoyos',
       jobTitle: 'Mentor & Co-Fundador',
-      worksFor: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      worksFor: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
     },
   ],
 }
@@ -104,7 +104,7 @@ const mentors = [
     image: '/images/team/Romulorodriguez.png',
     role: 'Fundador & Mentor Principal',
     tagline: 'El que lo construyó primero',
-    bio: 'Rómulo es el fundador de Romulo Agency y la mente detrás de los métodos que hoy usan cientos de estudiantes. Ha invertido y gestionado millones de dólares en publicidad digital, ha lanzado cursos que se venden solos y ha ayudado a negocios a multiplicar sus ingresos con estrategia, no con suerte.',
+    bio: 'Rómulo es el fundador de El Otro Romulo y la mente detrás de los métodos que hoy usan cientos de estudiantes. Ha invertido y gestionado millones de dólares en publicidad digital, ha lanzado cursos que se venden solos y ha ayudado a negocios a multiplicar sus ingresos con estrategia, no con suerte.',
     bio2: 'En cada asesoría te habla directo: sin rodeos, sin teorías vacías. Solo lo que funciona hoy en el mercado real.',
     specialties: [
       'Meta Ads & Google Ads',

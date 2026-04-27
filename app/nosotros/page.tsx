@@ -8,9 +8,9 @@ import AnimationObserver from '@/components/AnimationObserver'
 
 /* ── SEO ── */
 export const metadata: Metadata = {
-  title: 'Nosotros | Romulo Agency — Agencia de Marketing Digital',
+  title: 'Nosotros | El Otro Romulo — Agencia de Marketing Digital',
   description:
-    'Conoce a Romulo Agency: quiénes somos, qué nos mueve y el equipo detrás de los resultados. Una agencia de marketing digital nacida en Colombia para toda Latinoamérica.',
+    'Conoce a El Otro Romulo: quiénes somos, qué nos mueve y el equipo detrás de los resultados. Una agencia de marketing digital nacida en Colombia para toda Latinoamérica.',
   keywords: [
     'romulo agency nosotros',
     'agencia marketing digital colombia',
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
     'sobre romulo agency',
   ],
   openGraph: {
-    title: 'Nosotros — Romulo Agency',
-    description: 'Conoce el equipo y la historia detrás de Romulo Agency. Marketing digital con resultados reales.',
+    title: 'Nosotros — El Otro Romulo',
+    description: 'Conoce el equipo y la historia detrás de El Otro Romulo. Marketing digital con resultados reales.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Nosotros — Romulo Agency',
-    description: 'El equipo detrás de Romulo Agency. Marketing digital que genera resultados reales.',
+    title: 'Nosotros — El Otro Romulo',
+    description: 'El equipo detrás de El Otro Romulo. Marketing digital que genera resultados reales.',
   },
   alternates: { canonical: '/nosotros' },
   robots: { index: true, follow: true },
@@ -48,7 +48,7 @@ const jsonLd = {
     },
     {
       '@type': 'Organization',
-      name: 'Romulo Agency',
+      name: 'El Otro Romulo',
       url: 'https://romulo.agency',
       email: 'contacto@romulo.agency',
       description:
@@ -159,7 +159,7 @@ const staff = [
     story: [
       'Rómulo comenzó en el marketing digital de la misma manera que muchos emprendedores: aprendiendo por su cuenta, invirtiendo en cursos, cometiendo errores costosos y, sobre todo, no rindiéndose.',
       'Con el tiempo acumuló el conocimiento práctico que nadie enseña en los libros: cómo gestionar presupuestos publicitarios bajo presión, cómo construir funnels que realmente convierten, cómo escalar campañas sin que los costos se disparen.',
-      'Fundó Romulo Agency con una convicción clara: que los emprendedores latinoamericanos merecen acceso a estrategias de marketing de primer nivel, sin tener que pagar precios de agencias internacionales.',
+      'Fundó El Otro Romulo con una convicción clara: que los emprendedores latinoamericanos merecen acceso a estrategias de marketing de primer nivel, sin tener que pagar precios de agencias internacionales.',
     ],
     expertise: [
       'Meta Ads & Google Ads',
@@ -191,7 +191,7 @@ const staff = [
     story: [
       'Jhonathan es la mente técnica y estratégica que complementa la visión de Rómulo. Su recorrido en el marketing digital viene acompañado de un dominio profundo del desarrollo web y los sistemas de automatización.',
       'Entiende que el marketing moderno no puede separarse de la tecnología: las páginas que cargan lento pierden clientes, los CRMs mal configurados dejan dinero sobre la mesa, y los sistemas de automatización son la diferencia entre escalar y estancarse.',
-      'Su rol en Romulo Agency va más allá de ejecutar: es quien asegura que cada pieza del ecosistema digital del cliente funcione de manera integrada, eficiente y medible.',
+      'Su rol en El Otro Romulo va más allá de ejecutar: es quien asegura que cada pieza del ecosistema digital del cliente funcione de manera integrada, eficiente y medible.',
     ],
     expertise: [
       'Estrategia digital integral',
@@ -255,7 +255,7 @@ export default function Nosotros() {
                 </h1>
 
                 <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
-                  Romulo Agency nació de la frustración de ver tanto conocimiento
+                  El Otro Romulo nació de la frustración de ver tanto conocimiento
                   de marketing digital inaccesible para los emprendedores latinoamericanos
                   que más lo necesitan.
                 </p>
@@ -302,7 +302,7 @@ export default function Nosotros() {
                       <div className="w-10 h-10 rounded-xl gradient-bg flex items-center justify-center">
                         <svg className="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                       </div>
-                      <span className="font-bold text-white text-lg">ROMULO<span className="gradient-text">.</span></span>
+                      <span className="font-bold text-white text-lg">El Otro Romulo</span>
                     </div>
 
                     <p className="text-gray-300 text-sm leading-relaxed mb-6">
@@ -314,7 +314,7 @@ export default function Nosotros() {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-white">Rómulo Rodriguez</p>
-                        <p className="text-xs text-gray-500">Fundador, Romulo Agency</p>
+                        <p className="text-xs text-gray-500">Fundador, El Otro Romulo</p>
                       </div>
                     </div>
                   </div>
@@ -344,7 +344,7 @@ export default function Nosotros() {
 
                 <div className="space-y-4 text-gray-400 text-sm leading-relaxed">
                   <p>
-                    Romulo Agency nació en Colombia con una misión simple pero poderosa: democratizar el acceso a estrategias de marketing digital de alto nivel para emprendedores y negocios latinoamericanos.
+                    El Otro Romulo nació en Colombia con una misión simple pero poderosa: democratizar el acceso a estrategias de marketing digital de alto nivel para emprendedores y negocios latinoamericanos.
                   </p>
                   <p>
                     Vimos demasiados negocios con gran potencial fracasar no por falta de esfuerzo, sino por falta de dirección. Empresarios trabajando 14 horas al día sin ver resultados, invirtiendo en publicidad sin saber si estaba funcionando, construyendo sitios web que nadie visitaba.
@@ -353,7 +353,7 @@ export default function Nosotros() {
                     Decidimos cambiar eso. No con promesas de resultados mágicos ni con fórmulas genéricas copiadas de gurús extranjeros. Con trabajo real, estrategia probada y un equipo que se involucra en el éxito de cada cliente como si fuera el propio.
                   </p>
                   <p className="text-gray-300 font-medium">
-                    Hoy, Romulo Agency es el resultado de cientos de proyectos ejecutados, cientos de horas de asesoría y una sola obsesión: que nuestros clientes crezcan de verdad.
+                    Hoy, El Otro Romulo es el resultado de cientos de proyectos ejecutados, cientos de horas de asesoría y una sola obsesión: que nuestros clientes crezcan de verdad.
                   </p>
                 </div>
               </div>

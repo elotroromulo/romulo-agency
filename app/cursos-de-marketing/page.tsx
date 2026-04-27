@@ -7,7 +7,7 @@ import AnimationObserver from '@/components/AnimationObserver'
 
 /* ── SEO Metadata ── */
 export const metadata: Metadata = {
-  title: 'Cursos de Marketing Digital | Romulo Agency',
+  title: 'Cursos de Marketing Digital | El Otro Romulo',
   description:
     'Domina el marketing digital con cursos especializados: Meta Ads, edición viral con IA, escalamiento de campañas y venta de infoproductos. Cursos online desde $12 USD con resultados garantizados.',
   keywords: [
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     'curso infoproductos',
   ],
   openGraph: {
-    title: 'Cursos de Marketing Digital | Romulo Agency',
+    title: 'Cursos de Marketing Digital | El Otro Romulo',
     description:
       'Aprende Meta Ads, edición viral con IA, escalamiento PRO y venta de infoproductos. Cursos desde $12 USD con metodologías probadas.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cursos de Marketing Digital | Romulo Agency',
+    title: 'Cursos de Marketing Digital | El Otro Romulo',
     description: 'Meta Ads, edición viral con IA, escalamiento PRO y Método Cashin. Cursos desde $12 USD.',
   },
   alternates: { canonical: '/cursos-de-marketing' },
@@ -147,7 +147,7 @@ const jsonLd = {
     },
     {
       '@type': 'ItemList',
-      name: 'Cursos de Marketing Digital — Romulo Agency',
+      name: 'Cursos de Marketing Digital — El Otro Romulo',
       description: 'Cursos especializados en marketing digital: Meta Ads, edición viral, escalamiento y venta de infoproductos.',
       itemListElement: courses.map((c, i) => ({
         '@type': 'ListItem',
@@ -156,7 +156,7 @@ const jsonLd = {
           '@type': 'Course',
           name: c.title,
           description: c.description,
-          provider: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+          provider: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
           offers: {
             '@type': 'Offer',
             price: c.price,

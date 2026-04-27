@@ -3,7 +3,7 @@ const testimonials = [
     initials: 'CM',
     name: 'Carlos M.',
     role: 'CEO, Inmobiliaria Digital',
-    quote: 'Romulo Agency transformó mi negocio por completo. En 2 meses triplicamos los leads y la instalación de GHL automatizó todo nuestro seguimiento.',
+    quote: 'El Otro Romulo transformó mi negocio por completo. En 2 meses triplicamos los leads y la instalación de GHL automatizó todo nuestro seguimiento.',
     delay: '',
   },
   {

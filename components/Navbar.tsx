@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -68,15 +69,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 cursor-pointer" onClick={closeMenu}>
-            <div className="w-9 h-9 rounded-xl gradient-bg flex items-center justify-center flex-shrink-0">
-              <svg className="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-              </svg>
-            </div>
-            <span className="font-bold text-xl tracking-tight text-white">
-              ROMULO<span className="gradient-text">.</span>
-            </span>
+          <Link href="/" className="flex items-center cursor-pointer" onClick={closeMenu}>
+            <Image src="/images/EL-OTRO-ROMULO-LOGO-BLANCO.png" alt="El Otro Romulo" width={160} height={48} className="h-10 w-auto" priority />
           </Link>
 
           {/* Desktop links */}

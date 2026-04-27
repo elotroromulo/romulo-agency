@@ -8,7 +8,7 @@ import PortfolioShowcase from '@/components/PortfolioShowcase'
 
 /* ── SEO ── */
 export const metadata: Metadata = {
-  title: 'Landing Pages de Alta Conversión | Diseño Profesional | Romulo Agency',
+  title: 'Landing Pages de Alta Conversión | Diseño Profesional | El Otro Romulo',
   description:
     'Diseñamos landing pages que convierten visitantes en clientes. Responsive, ultrarrápidas, con copy persuasivo y entrega en 5–7 días. Resultados comprobados con clientes reales.',
   keywords: [
@@ -22,16 +22,16 @@ export const metadata: Metadata = {
     'landing page con copy persuasivo',
   ],
   openGraph: {
-    title: 'Landing Pages de Alta Conversión — Romulo Agency',
+    title: 'Landing Pages de Alta Conversión — El Otro Romulo',
     description:
       'Landing pages que venden. Responsive, rápidas, con copy persuasivo. Entrega en 5–7 días. Ve nuestro portafolio de páginas reales.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Landing Pages de Alta Conversión — Romulo Agency',
+    title: 'Landing Pages de Alta Conversión — El Otro Romulo',
     description: 'Landing pages que convierten. Responsive, rápidas, copy incluido. Entrega 5–7 días.',
   },
   alternates: { canonical: '/servicios/landing-pages' },
@@ -55,7 +55,7 @@ const jsonLd = {
       name: 'Diseño de Landing Pages de Alta Conversión',
       description:
         'Creamos landing pages profesionales, responsive y ultrarrápidas con copy persuasivo y optimización para conversión. Entrega garantizada en 5 a 7 días hábiles.',
-      provider: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      provider: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
       areaServed: { '@type': 'Place', name: 'Latinoamérica' },
       serviceType: 'Diseño Web · Conversión',
       offers: {

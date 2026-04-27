@@ -10,7 +10,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Romulo Agency | Marketing Digital que Convierte',
+  title: 'El Otro Romulo | Marketing Digital que Convierte',
   description: 'Cursos, asesorías personalizadas, diseño web, landing pages e instalación de GoHighLevel. Todo para escalar tu negocio digital.',
 }
 

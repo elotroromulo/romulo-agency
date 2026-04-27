@@ -8,7 +8,7 @@ import ContactForm from '@/components/ContactForm'
 
 /* ── SEO ── */
 export const metadata: Metadata = {
-  title: 'Contacto | Romulo Agency — Marketing Digital',
+  title: 'Contacto | El Otro Romulo — Marketing Digital',
   description:
     'Contáctanos para solicitar una cotización o agendar tu asesoría de marketing digital. Diseño web, landing pages, GoHighLevel y cursos. Respondemos en menos de 24 horas.',
   keywords: [
@@ -20,15 +20,15 @@ export const metadata: Metadata = {
     'solicitar landing page',
   ],
   openGraph: {
-    title: 'Contacto — Romulo Agency',
+    title: 'Contacto — El Otro Romulo',
     description: 'Escríbenos para cotizaciones, asesorías o cualquier consulta. Respondemos en menos de 24 horas.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contacto — Romulo Agency',
+    title: 'Contacto — El Otro Romulo',
     description: 'Cotizaciones y asesorías de marketing digital. Respuesta en &lt;24h.',
   },
   alternates: { canonical: '/contacto' },
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  name: 'Contacto — Romulo Agency',
-  description: 'Página de contacto de Romulo Agency. Cotizaciones y asesorías de marketing digital.',
+  name: 'Contacto — El Otro Romulo',
+  description: 'Página de contacto de El Otro Romulo. Cotizaciones y asesorías de marketing digital.',
   url: 'https://romulo.agency/contacto',
   mainEntity: {
     '@type': 'Organization',
-    name: 'Romulo Agency',
+    name: 'El Otro Romulo',
     url: 'https://romulo.agency',
     email: 'contacto@romulo.agency',
     contactPoint: [

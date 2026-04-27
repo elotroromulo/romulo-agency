@@ -7,7 +7,7 @@ import AnimationObserver from '@/components/AnimationObserver'
 
 /* ── SEO Metadata ── */
 export const metadata: Metadata = {
-  title: 'Servicios de Marketing Digital | Diseño Web, Landing Pages y GHL | Romulo Agency',
+  title: 'Servicios de Marketing Digital | Diseño Web, Landing Pages y GHL | El Otro Romulo',
   description:
     'Diseño web profesional, landing pages de alta conversión e instalación completa de GoHighLevel. Servicios de marketing digital para hacer crecer y automatizar tu negocio.',
   keywords: [
@@ -22,16 +22,16 @@ export const metadata: Metadata = {
     'agencia marketing colombia',
   ],
   openGraph: {
-    title: 'Servicios | Diseño Web, Landing Pages y GHL — Romulo Agency',
+    title: 'Servicios | Diseño Web, Landing Pages y GHL — El Otro Romulo',
     description:
       'Diseño web responsive, landing pages que convierten e implementación completa de GoHighLevel. Resultados en 7–14 días.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Servicios | Diseño Web, Landing Pages y GHL — Romulo Agency',
+    title: 'Servicios | Diseño Web, Landing Pages y GHL — El Otro Romulo',
     description: 'Diseño web, landing pages y GoHighLevel. Entrega en 7–14 días.',
   },
   alternates: { canonical: '/servicios' },
@@ -159,7 +159,7 @@ const jsonLd = {
       '@type': 'Service',
       name: s.title,
       description: s.description,
-      provider: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      provider: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
       areaServed: { '@type': 'Place', name: 'Latinoamérica' },
       serviceType: s.category,
     })),
@@ -380,7 +380,7 @@ export default function Servicios() {
             <div className="text-center mb-12 fade-up">
               <p className="section-label mb-3">Nuestra diferencia</p>
               <h2 className="text-3xl sm:text-4xl font-bold text-white">
-                Por Qué Elegir <span className="gradient-text">Romulo Agency</span>
+                Por Qué Elegir <span className="gradient-text">El Otro Romulo</span>
               </h2>
             </div>
 

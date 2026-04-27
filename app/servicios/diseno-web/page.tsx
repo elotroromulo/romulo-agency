@@ -7,7 +7,7 @@ import AnimationObserver from '@/components/AnimationObserver'
 
 /* ── SEO ── */
 export const metadata: Metadata = {
-  title: 'Diseño Web Profesional en WordPress y Next.js | Romulo Agency',
+  title: 'Diseño Web Profesional en WordPress y Next.js | El Otro Romulo',
   description:
     'Creamos sitios web profesionales en WordPress o Next.js / React. Rápidos, responsivos y optimizados para SEO. Elige la tecnología que más se adapta a tu negocio y tu presupuesto.',
   keywords: [
@@ -23,16 +23,16 @@ export const metadata: Metadata = {
     'diseño web colombia latinoamerica',
   ],
   openGraph: {
-    title: 'Diseño Web en WordPress o Next.js — Romulo Agency',
+    title: 'Diseño Web en WordPress o Next.js — El Otro Romulo',
     description:
       'Sitios web rápidos, responsivos y orientados a resultados. Desarrollamos en WordPress o Next.js según lo que tu negocio necesita.',
     type: 'website',
     locale: 'es_ES',
-    siteName: 'Romulo Agency',
+    siteName: 'El Otro Romulo',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Diseño Web Profesional — Romulo Agency',
+    title: 'Diseño Web Profesional — El Otro Romulo',
     description: 'Sitios web en WordPress o Next.js. Rápidos, responsivos, SEO. Cotización en 24h.',
   },
   alternates: { canonical: '/servicios/diseno-web' },
@@ -56,7 +56,7 @@ const jsonLd = {
       name: 'Diseño Web Profesional en WordPress y Next.js',
       description:
         'Desarrollamos sitios web profesionales en WordPress o Next.js / React según las necesidades del cliente. Entrega rápida, código limpio, optimizado para SEO y velocidad.',
-      provider: { '@type': 'Organization', name: 'Romulo Agency', url: 'https://romulo.agency' },
+      provider: { '@type': 'Organization', name: 'El Otro Romulo', url: 'https://romulo.agency' },
       areaServed: { '@type': 'Place', name: 'Latinoamérica' },
       serviceType: 'Diseño y Desarrollo Web',
       hasOfferCatalog: {

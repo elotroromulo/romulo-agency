@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const socials = [
   {
     label: 'Instagram',
@@ -38,15 +40,8 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-5">
-            <div className="flex items-center gap-2.5 mb-5">
-              <div className="w-9 h-9 rounded-xl gradient-bg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                </svg>
-              </div>
-              <span className="font-bold text-xl tracking-tight text-white">
-                ROMULO<span className="gradient-text">.</span>
-              </span>
+            <div className="flex items-center mb-5">
+              <Image src="/images/EL-OTRO-ROMULO-LOGO-BLANCO.png" alt="El Otro Romulo" width={160} height={48} className="h-10 w-auto" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs mb-6">
               Agencia de marketing digital especializada en transformar negocios a través de estrategias probadas y tecnología moderna.
@@ -95,7 +90,7 @@ export default function Footer() {
 
         <div className="glow-divider mb-6" />
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-gray-500 text-sm">&copy; 2025 Romulo Agency. Todos los derechos reservados.</p>
+          <p className="text-gray-500 text-sm">&copy; 2025 El Otro Romulo. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="#" className="text-gray-500 hover:text-gray-400 text-sm transition-colors cursor-pointer">Privacidad</a>
             <a href="#" className="text-gray-500 hover:text-gray-400 text-sm transition-colors cursor-pointer">Términos</a>
