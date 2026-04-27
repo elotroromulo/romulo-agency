@@ -64,7 +64,7 @@ const jsonLd = {
         {
           '@type': 'Person',
           name: 'Jhonathan Hoyos',
-          jobTitle: 'Co-Fundador',
+          jobTitle: 'Especialista en Desarrollo Web',
         },
       ],
     },
@@ -179,7 +179,7 @@ const staff = [
     name: 'Jhonathan Hoyos',
     initials: 'JH',
     image: '/images/team/jhonathan.png',
-    role: 'Co-Fundador',
+    role: 'Especialista en Desarrollo Web',
     location: 'Colombia',
     avatarGradient: 'from-blue-500 to-indigo-600',
     accentColor: 'border-blue-400/20',
@@ -187,7 +187,7 @@ const staff = [
     tagColor: 'text-blue-400 bg-blue-400/10 border-blue-400/20',
     glowColor: '0 0 40px rgba(59,130,246,0.2)',
     checkColor: 'text-blue-400',
-    badge: 'Co-Fundador',
+    badge: 'Especialista en Desarrollo Web',
     story: [
       'Jhonathan es la mente técnica y estratégica que complementa la visión de Rómulo. Su recorrido en el marketing digital viene acompañado de un dominio profundo del desarrollo web y los sistemas de automatización.',
       'Entiende que el marketing moderno no puede separarse de la tecnología: las páginas que cargan lento pierden clientes, los CRMs mal configurados dejan dinero sobre la mesa, y los sistemas de automatización son la diferencia entre escalar y estancarse.',
